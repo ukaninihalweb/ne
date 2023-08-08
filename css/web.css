@@ -178,6 +178,25 @@ body{
     color: #4CAF4F;
     background-color: #fff;
 }
+@media only screen and (max-width:375px) {
+    .heading{margin-right: 30px;}
+    
+}
+@media only screen and(max-width:375px){
+    .img{
+        margin-right: 30px;
+    }
+    
+}
+@media only screen and(max-width:375px){
+    .i-btn{
+        margin-left: -30px;
+        margin-top: 20px;
+        
+    }
+    
+}
+
 .card-1{
     height: 176px;
     width: 317px;
@@ -303,10 +322,7 @@ input::placeholder {
 }
 @media only  screen and (max-width:320px) {
     .post-meta{
-        transform: translateY(-50%);
-        background-color: #fff;
-        border-radius: 8px;
-        text-align: center;
+       margin-left: 29px !important;
     }
 }
 .post-meta{
