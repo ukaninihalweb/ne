@@ -196,6 +196,9 @@ body{
     }
     
 }
+input::placeholder{
+    font-size: 20px ;
+}
 
 .card-1{
     height: 176px;
