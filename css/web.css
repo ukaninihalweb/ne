@@ -51,9 +51,14 @@ body{
     height: 50px;
     width: 128px;
 }
+@media only screen and(max-width:375px) {
+    .c-img{
+        margin-left: -20px !important;
+        height: 300px;
+    }
+}
 .c-img{
-    margin-left: -20px;
-    height:  380px;
+    margin-left: 80px;
 }
 .s-h1{
     text-align: center;
@@ -172,8 +177,8 @@ body{
    font-family: 'Agdasima', sans-serif;
 }
 .i-btn{
+    justify-content: center;
     height: 44px;
-    width: 223px;
     border:none;
     color: #4CAF4F;
     background-color: #fff;
@@ -198,6 +203,12 @@ body{
 }
 input::placeholder{
     font-size: 20px ;
+}
+@media only screen and (max-width:375px){
+    .main-col{
+        margin-left: 50px !important;
+        margin-top: -58px !important;
+    }
 }
 
 .card-1{
@@ -318,6 +329,7 @@ input::placeholder {
     font-size: 15px;
     font-family: 'Agdasima', sans-serif;
     color: #D9DBE1;
+    padding-left: 10px;
 }
 .row{
     flex-wrap: wrap;
